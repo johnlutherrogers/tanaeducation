@@ -35,23 +35,29 @@ ul.nav.navbar-nav li a {
     float: right;
     margin-right: 5px;
     margin-top: 20px;
-    width: 125px;
+    width: 150px;
     color: red;
     /*border: 1px solid red;*/
     padding: 10px 5px;
 }
 .title {
     margin-top: 40px;
+    font-family: Copperplate, "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 @media screen and (max-width: 970px) {
     .title {
         clear: both;
     }
 }
-.title h1 {
-    /*font-family: "Copperplate Gothic";*/
-    font-size: 32px;
-    font-family: Copperplate, "Helvetica Neue",Helvetica,Arial,sans-serif;;
+.title .name {
+    font-size: 28px;
+    margin: 0 0;
+    line-height: 25px;
+}
+.title .site-name {
+    font-size: 22px;
+    margin: 0 0;
+    line-height: 25px;
 }
 .dark-bg {
     background-color: #000;
@@ -71,9 +77,6 @@ ul.nav.navbar-nav li a {
 }
 .title-block {
     min-height: 120px;
-}
-.title-block .title {
-    margin-top: 60px;
 }
 
 .text-right-bottom {
