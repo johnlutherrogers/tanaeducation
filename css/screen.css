@@ -41,7 +41,7 @@ ul.nav.navbar-nav li a {
     padding: 10px 5px;
 }
 .title {
-    margin-top: 40px;
+    margin: 40px 0 0 20px;
     font-family: Copperplate, "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 @media screen and (max-width: 970px) {
@@ -110,8 +110,9 @@ ul.nav.navbar-nav li a {
     margin-top: 10px;
 }
 .quote-container {
-    width: 80%;
-    margin: 70px auto;
+    position: absolute;
+    bottom: 20px;
+    padding: 0 20px;
 }
 .intro-quote {
     color: #fff;
@@ -260,10 +261,10 @@ table .sep-row {
 }
 .contact-avatar-container {
     margin: 300px auto 0 auto;
-    width: 200px;
+    width: 180px;
 }
 .contact-avatar-container img {
-    width: 200px;
+    width: 180px;
 }
 @media screen and (max-width: 768px) {
     .contact-link-block {
@@ -272,17 +273,17 @@ table .sep-row {
 }
 @media screen and (min-width: 750px) {
     .contact-avatar-container img {
-        width: 150px;
+        width: 130px;
     }
     .contact-avatar-container {
-        width: 150px;
+        width: 130px;
     }
 }
 @media screen and (min-width: 970px) {
     .contact-avatar-container img {
-        width: 200px;
+        width: 180px;
     }
     .contact-avatar-container {
-        width: 200px;
+        width: 180px;
     }
 }
